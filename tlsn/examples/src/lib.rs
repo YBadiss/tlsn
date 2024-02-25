@@ -80,7 +80,8 @@ pub async fn request_notarization(
     // Build the HTTP request to configure notarization
     let payload = serde_json::to_string(&NotarizationSessionRequest {
         client_type: ClientType::Tcp,
-        max_transcript_size,
+        max_sent_data: None,
+        max_recv_data: None,
     })
     .unwrap();
 
