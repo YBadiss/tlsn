@@ -58,6 +58,10 @@ name = "twitter_dm"
 path = "twitter/twitter_dm.rs"
 
 [[example]]
+name = "twitter_cn"
+path = "twitter/twitter_cn.rs"
+
+[[example]]
 name = "discord_dm"
 path = "discord/discord_dm.rs"
 
